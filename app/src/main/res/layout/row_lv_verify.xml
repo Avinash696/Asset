@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lv1_verify">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/finance_year"
+                android:id="@+id/tv_fy_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:id="@+id/tv_location_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PvCode"
+                android:id="@+id/tv_pvCode_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PvDate"
+                android:id="@+id/tv_pvdate_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PvStatus"
+                android:id="@+id/tv_pvstatus_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PvRemark"
+                android:id="@+id/tv_pvRemark_verify"
+                android:textSize="@dimen/tabs_textSize"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/delete_add"
+            android:layout_height="@dimen/delete_add"
+            android:background="@drawable/ic_baseline_edit_24"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/iv_add"/>
+        <ImageView
+            android:layout_width="@dimen/delete_add"
+            android:layout_height="@dimen/delete_add"
+            android:background="@drawable/ic_baseline_delete_forever_24"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+</RelativeLayout>

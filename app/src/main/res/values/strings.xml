@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AssetManagement</string>
+    <dimen name="edit_width">250dp</dimen>
+    <dimen name="picker_width">150dp</dimen>
+    <dimen name="picker_height">50dp</dimen>
+    <string name="assets_detail">Assets Detail</string>
+    <string name="valuation_detail">Valuation Detail</string>
+    <string name="sanitisationDetail">sanitisation Detail</string>
+    <string name="OtherDetail">OtherDetail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Base_url">https://localhost/</string>
+    //
+    <string name="finance_year">Finance Year</string>
+    <string name="location">location</string>
+    <string name="PvCode">PV Code</string>
+    <string name="PvDate">PV Start / PV End</string>
+    <string name="PvUser">PV User</string>
+    <string name="PvStatus">PV Status</string>
+    <string name="PvRemark">Pv Remark</string>
+
+</resources>
